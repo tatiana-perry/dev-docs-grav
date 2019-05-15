@@ -99,7 +99,8 @@
         "test-windows": "vendor\\bin\\codecept run unit",
         "compile": [
             "bin/grav install",
-            "bin/gpm install learn2 -y"
+            "bin/gpm install learn2 -y",
+            "bin/gpm install admin -y",
     },
     "extra": {
         "branch-alias": {

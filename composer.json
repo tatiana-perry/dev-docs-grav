@@ -89,11 +89,6 @@
         "exclude": ["VERSION"]
     },
     "scripts": {
-        "compile":[
-            "bin/grav install",
-            "bin/gpm install admin -y",
-            "bin/gpm install learn2 -y"
-        ],
         "api-16": "vendor/bin/phpdoc-md generate system/src > user/pages/14.api/default.16.md",
         "api-15": "vendor/bin/phpdoc-md generate system/src > user/pages/14.api/default.md",
         "post-create-project-cmd": "bin/grav install",

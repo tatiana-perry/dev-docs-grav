@@ -1,0 +1,43 @@
+.dd-item{
+  background-color: #ffffff !important;
+}
+#sidebar{
+    background-color: #ffffff !important;
+    color: black;
+}
+#sidebar a{
+    color: blue;
+}
+#sidebar ul.topics > li.active {
+    background-color: #ffffff !important;
+}
+.page-toc{
+    font-size: 15px;
+    float: right;
+    overflow: hidden;
+    width: 250px;
+    margin-top: 10px;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+    padding: .5rem .75rem;
+}
+
+.top-nav {
+    list-style-type: none;
+    margin: 0 0 50px 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .top-nav-li {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .top-nav-li a {
+    display: block;
+  }
